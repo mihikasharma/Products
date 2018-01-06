@@ -1,0 +1,133 @@
+{
+	"id": "c25c1b08-893d-164e-0674-19a5b230befb",
+	"name": "RetailService",
+	"description": "",
+	"order": [
+		"33a64c88-f0b8-dd1c-f9a3-a21b57eb6714",
+		"b08e7493-6d47-28d4-314a-3027b7bd305e",
+		"fe34b6e3-e4ed-4e62-1e13-35ed142d54ca"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1507380796923,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "33a64c88-f0b8-dd1c-f9a3-a21b57eb6714",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://mihika.example.com/apis/v1/product?id=1",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507380859449,
+			"name": "http://mihika.example.com/apis/v1/product?id=1",
+			"description": "",
+			"collectionId": "c25c1b08-893d-164e-0674-19a5b230befb",
+			"responses": [],
+			"rawModeData": "{\n\t\"data\" : {\n\t\t\"price\" : 100\n\t}\n}"
+		},
+		{
+			"id": "b08e7493-6d47-28d4-314a-3027b7bd305e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://mihika.example.com/apis/v1/product?id=1",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "c25c1b08-893d-164e-0674-19a5b230befb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://mihika.example.com/apis/v1/product?id=1",
+			"description": "API to update the product details",
+			"descriptionFormat": "html",
+			"time": 1507380880073,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"data\" : {\n\t\t\"price\" : 100\n\t}\n}"
+		},
+		{
+			"id": "fe34b6e3-e4ed-4e62-1e13-35ed142d54ca",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://mihika.example.com/apis/v1/product/name?id=13860428",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "13860428",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c25c1b08-893d-164e-0674-19a5b230befb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://mihika.example.com/apis/v1/product/name?id=13860428",
+			"description": "API that would fetch name of the product",
+			"descriptionFormat": "html",
+			"time": 1507381205930,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"data\" : \"123\"\n}"
+		}
+	]
+}
